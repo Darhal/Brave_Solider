@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core">
+      <UniqueIdentifier>{fbc6901c-d991-4d02-b3e7-b0e3ce9b5073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Utils">
+      <UniqueIdentifier>{8d0aa29c-775a-4cd9-9f54-d9a9fa7b5505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\MapManager">
+      <UniqueIdentifier>{e413f9be-219a-49cd-87f7-63a8b7334d49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Entities">
+      <UniqueIdentifier>{43263187-3cb0-4408-bb5b-b44bbacfbadf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameManager">
+      <UniqueIdentifier>{5c47ea0b-eea2-48c5-9ab3-b96f7c1549bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\UI Package">
+      <UniqueIdentifier>{659205da-1431-4b80-b634-24d4da2aa8f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Items">
+      <UniqueIdentifier>{07922b57-9899-4435-8235-ba77f1e68337}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HUD.cpp">
+      <Filter>src\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ProgressBar.cpp">
+      <Filter>src\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cocos\CocosProjects\Brave_Solider\Classes\TiledBodyCreator.cpp">
+      <Filter>src\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TiledMap.cpp">
+      <Filter>src\MapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player.cpp">
+      <Filter>src\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Enemies.cpp">
+      <Filter>src\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager.cpp">
+      <Filter>src\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainMenuScene.cpp">
+      <Filter>src\UI Package</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SplashScene.cpp">
+      <Filter>src\UI Package</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Inventory.cpp">
+      <Filter>src\Items</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HUD.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ProgressBar.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cocos\CocosProjects\Brave_Solider\Classes\TiledBodyCreator.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TiledMap.h">
+      <Filter>src\MapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player.h">
+      <Filter>src\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Enemies.h">
+      <Filter>src\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager.h">
+      <Filter>src\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainMenuScene.h">
+      <Filter>src\UI Package</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SplashScene.h">
+      <Filter>src\UI Package</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Inventory.h">
+      <Filter>src\Items</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
